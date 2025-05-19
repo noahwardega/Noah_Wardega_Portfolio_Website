@@ -30,30 +30,31 @@
         <li><a href="#solution">Solution</a></li>
         <li><a href="#showcase">Showcase</a></li>
         <li><a href="#links">Links</a></li>
-        <li><a href="./index.html#portfolio">Back to Projects</a></li>
+        <li><a href="index.html#portfolio">Back to Projects</a></li>
     </ul>
 </header>
 
 <!---Project Overview--->
 <section class="overview" id="overview">
     <div class="main-text">
-        <h2>Hefty</h2>
+        <h2>GameHub</h2>
     </div>
     <div class="overview-text">
         <div class="box">
             <h3>Overview</h3>
             <p>
-                Hefty is a mobile app design prototype for a modern banking platform. It allows users to view account balances and transaction history, trade cryptocurrencies,
-                send and receive money, and manage bills directly through the app. The prototype includes key screens such as Home, Exchange, Deposit, Transfer, Bills, Settings,
-                and Support, offering a streamlined and user-friendly experience tailored for digital financial management.
+                GameHub is a browser-based web application that brings together three classic games—Wordle, Rock Paper Scissors, and Tic Tac Toe—into one unified platform.
+                Designed for quick, casual gameplay, each game is built using React components and delivers an interactive, responsive user experience.
+                Users can navigate seamlessly between games, enjoy intuitive interfaces, and engage in simple, replayable challenges.
+
+
+
             </p>
         </div>
         <div class="box">
             <h3>Team/Roles</h3>
             <p>
-                Noah Wardega: UI Designer
-                <br>
-                Peter McCartney: Flow Designer
+                Noah Wardega: Developer
             </p>
         </div>
     </div>
@@ -62,7 +63,7 @@
 <!---Solution--->
 <section class="solution" id="solution">
     <div class="solution-img">
-        <img src="img/hefty.png">
+        <img src="img/gamehub.png">
     </div>
     <div class="solution-text">
         <div class="main-text">
@@ -71,11 +72,16 @@
         <div class="box">
             <h3>Technology Used</h3>
             <p>
-                Hefty was designed using these tools:
+                GameHub is built using a modern front-end development stack focused on interactivity and responsiveness. Key technologies include:
             </p>
             <ul>
-                <li><strong>Trello</strong> – for Project Management, allowing tbe team to organize models, files, and tasks</li>
-                <li><strong>Figma</strong> – for Designing and Prototyping the User Interface, enabling collaboration and visualizing the app’s layout and functionality </li>
+                <li><strong>React.js</strong> – for building the user interface with reusable, component-based architecture.</li>
+                <li><strong>JavaScript</strong> – for implementing game logic, interactivity, and dynamic behavior.</li>
+                <li><strong>HTML & CSS</strong> – for structuring content and styling the visual layout of the application.</li>
+                <li><strong>React Hooks</strong> – for managing component state and side effects in a clean and functional way.</li>
+                <li><strong>React Router</strong> – for navigating between different games and sections of the hub</li>
+                <li><strong>VS Code</strong> – as the primary development environment</li>
+                <li><strong>Git & GitHub</strong> – for version control and project hosting.</li>
             </ul>
         </div>
     </div>
@@ -92,49 +98,35 @@
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image1.png" alt="Image 1">
-                <div class="caption">Launching the App takes the user to the Sign In Page</div>
+                <img src="img/gamehub_showcase_image1.png" alt="Image 1">
+                <div class="caption">Homepage of the GameHub</div>
             </div>
 
             <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image2.png" alt="Image 2">
-                <div class="caption">Clicking Sign Up takes the user to an Account Creation Page</div>
+                <img src="img/gamehub_showcase_image2.png" alt="Image 2">
+                <div class="caption">The Game Wordle in Dark Mode</div>
             </div>
 
             <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image3.png" alt="Image 3">
-                <div class="caption">Verifying Account upon creation</div>
+                <img src="img/gamehub_showcase_image3.png" alt="Image 3">
+                <div class="caption">Shows a Won Game of Wordle</div>
             </div>
 
             <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image4.png" alt="Image 4">
-                <div class="caption">The Home Page, displaying Balances and Transaction History</div>
+                <img src="img/gamehub_showcase_image4.png" alt="Image 4">
+                <div class="caption">Shows a Lost Game of Wordle and displays in Light Mode</div>
             </div>
 
             <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image5.png" alt="Image 5">
-                <div class="caption">Deposit Page, user can select Method and Amount</div>
+                <img src="img/gamehub_showcase_image5.png" alt="Image 5">
+                <div class="caption">Displays the Game Rock Paper Scissors</div>
             </div>
 
             <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image6.png" alt="Image 6">
-                <div class="caption">Overlay that appears when user clicks the three lines</div>
+                <img src="img/gamehub_showcase_image6.png" alt="Image 6">
+                <div class="caption">Displays a Tic Tac Toe Game</div>
             </div>
 
-            <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image7.png" alt="Image 7">
-                <div class="caption">Account Setting like change password</div>
-            </div>
-
-            <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image8.png" alt="Image 8">
-                <div class="caption">Displays General App Settings like theme and notifications</div>
-            </div>
-
-            <div class="swiper-slide">
-                <img src="./img/hefty_showcase_image9.png" alt="Image 9">
-                <div class="caption">Support Page, includes FAQs and support information</div>
-            </div>
 
 
         </div>
@@ -153,8 +145,7 @@
         <h2>Links</h2>
     </div>
     <div class="links-text">
-        <a href="https://www.figma.com/proto/btnnY5SJIpXMwV3tJ13YK8/Hefty_Prototype?node-id=0-3&p=f&t=WL62Madxmx89Wsw1-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A3" class="btn" target="_blank">View Figma Prototype</a>
-        <a href="https://www.figma.com/design/kAVMyubx4XycNnaO2FW3N0/Hefty_Wireframes?t=WL62Madxmx89Wsw1-1" class="btn" target="_blank">View Figma Wireframes</a>
+        <a href="https://it3049c-spring24.github.io/gamehub-noahwardega/" class="btn" target="_blank">Go to GameHub</a>
     </div>
 </section>
 <a href="index.html" id="btn2" target="_blank">Back to Home</a>
