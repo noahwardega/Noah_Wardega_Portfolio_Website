@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project: PlanIt! RSVP App</title>
+  <!---custom css link--->
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+  <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+<header>
+  <h2 class="logo">Portfolio</h2>
+  <ul class="navbar">
+    <li><a href="#overview">Project Overview</a></li>
+    <li><a href="#solution">Solution</a></li>
+    <li><a href="#showcase">Showcase</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="./index.html#portfolio">Back to Projects</a></li>
+  </ul>
+</header>
+
+<!---Project Overview--->
+<section class="overview" id="overview">
+  <div class="main-text">
+    <h2>PlanIt</h2>
+  </div>
+  <div class="overview-text">
+    <div class="box">
+      <h3>Overview</h3>
+      <p>
+        PlanIt simplifies event management by allowing users to create, organize, and RSVP to events effortlessly.
+        From the home page, users can view upcoming events they've RSVP’d to and delve into event details with a simple click.
+        Creating events is intuitive, with options to set event specifics and invite guests directly through the app.
+        PlanIt also provides visibility into guest RSVP statuses, ensuring seamless coordination and anticipation of attendees.
+      </p>
+    </div>
+    <div class="box">
+      <h3>Team/Roles</h3>
+        <p>
+            Noah Wardega: Business Logic and Persistence
+          <br>
+            Dominic Scott: Product Owner/Scrum Master
+          <br>
+            Emma Danner: User Interface
+          <br>
+            Calvin Yeboah: User Interface
+        </p>
+    </div>
+  </div>
+</section>
+
+<!---Solution--->
+<section class="solution" id="solution">
+  <div class="solution-img">
+    <img src="img/rsvp.png">
+  </div>
+  <div class="solution-text">
+    <div class="main-text">
+      <h2>Solution</h2>
+    </div>
+    <div class="box">
+      <h3>Technology Used</h3>
+      <p>
+        PlanIt is built using a modern web development stack. Key technologies include:
+      </p>
+      <ul>
+        <li><strong>Java & Spring Boot</strong> – for building the backend, handling APIs, and managing business logic.</li>
+        <li><strong>Thymeleaf</strong> – for rendering dynamic HTML templates.</li>
+        <li><strong>Spring Data JPA</strong> – for database interaction using object-relational mapping.</li>
+        <li><strong>MySQL</strong> – as the primary relational database to store user, event, and RSVP data.</li>
+        <li><strong>HTML & CSS</strong> – for structuring and styling the frontend interface.</li>
+        <li><strong>Maven</strong> – for managing project dependencies and build configuration.</li>
+        <li><strong>JUnit & Spring Boot Test</strong> – for writing and running unit and integration tests.</li>
+        <li><strong>Git & GitHub</strong> – for version control, collaboration, and project hosting.</li>
+        <li><strong>IntelliJ</strong> – as the primary development environment</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!---Showcase--->
+<section class="showcase" id="showcase">
+  <div class="main-text">
+    <h2>Showcase</h2>
+  </div>
+
+  <!-- Swiper container -->
+  <div class="swiper mySwiper" style="width: 100%">
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image1.png" alt="Image 1">
+        <div class="caption">Launching the App takes the user to the Sign In Page</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image2.png" alt="Image 2">
+        <div class="caption">Entering an Email that already exists in the Database logs that User in and displays Home Page</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image3.png" alt="Image 3">
+        <div class="caption">Create an Event Page where the User can send invites - Created Test Event "Team Project Checkpoint Meeting"</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image4.png" alt="Image 4">
+        <div class="caption">View Event Info and RSVP Statuses of your Event - All RSVP statuses are pending for Test Event</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image5.png" alt="Image 5">
+        <div class="caption">Logged in as an Invited User of the Test Event</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image6.png" alt="Image 6">
+        <div class="caption">Viewed Test Event and Changed RSVP status to Yes</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image7.png" alt="Image 7">
+        <div class="caption">On Sign In Page Entering an Email that doesn't exist in the Database</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image8.png" alt="Image 8">
+        <div class="caption">Complete User Registration Page</div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="./img/rsvp_showcase_image9.png" alt="Image 9">
+        <div class="caption">Logged in as new User and displaying their Home Page</div>
+      </div>
+
+
+    </div>
+
+    <!-- Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+
+  </div>
+</section>
+
+<!---Links--->
+<section class="links" id="links">
+  <div class="main-text">
+    <h2>Links</h2>
+  </div>
+  <div class="links-text">
+    <a href="https://github.com/dominichscott/EnterpriseAppDevGroup3" class="btn" target="_blank">View GitHub Project</a>
+  </div>
+</section>
+<a href="index.html" id="btn2" target="_blank">Back to Home</a>
+
+</body>
+
+</html>
+
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project: PlanIt! RSVP App</title>
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+<header>
+    <h2 class="logo">Portfolio</h2>
+    <ul class="navbar">
+        <li><a href="#overview">Project Overview</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="./index.html#portfolio">Back to Projects</a></li>
+    </ul>
+</header>
+
+<!---Project Overview--->
+<section class="overview" id="overview">
+    <div class="main-text">
+        <h2>GameHub</h2>
+    </div>
+    <div class="overview-text">
+        <div class="box">
+            <h3>Overview</h3>
+            <p>
+                GameHub is a browser-based web application that brings together three classic games—Wordle, Rock Paper Scissors, and Tic Tac Toe—into one unified platform.
+                Designed for quick, casual gameplay, each game is built using React components and delivers an interactive, responsive user experience.
+                Users can navigate seamlessly between games, enjoy intuitive interfaces, and engage in simple, replayable challenges.
+
+
+
+            </p>
+        </div>
+        <div class="box">
+            <h3>Team/Roles</h3>
+            <p>
+                Noah Wardega: Developer
+            </p>
+        </div>
+    </div>
+</section>
+
+<!---Solution--->
+<section class="solution" id="solution">
+    <div class="solution-img">
+        <img src="img/gamehub.png">
+    </div>
+    <div class="solution-text">
+        <div class="main-text">
+            <h2>Solution</h2>
+        </div>
+        <div class="box">
+            <h3>Technology Used</h3>
+            <p>
+                GameHub is built using a modern front-end development stack focused on interactivity and responsiveness. Key technologies include:
+            </p>
+            <ul>
+                <li><strong>React.js</strong> – for building the user interface with reusable, component-based architecture.</li>
+                <li><strong>JavaScript</strong> – for implementing game logic, interactivity, and dynamic behavior.</li>
+                <li><strong>HTML & CSS</strong> – for structuring content and styling the visual layout of the application.</li>
+                <li><strong>React Hooks</strong> – for managing component state and side effects in a clean and functional way.</li>
+                <li><strong>React Router</strong> – for navigating between different games and sections of the hub</li>
+                <li><strong>VS Code</strong> – as the primary development environment</li>
+                <li><strong>Git & GitHub</strong> – for version control and project hosting.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!---Showcase--->
+<section class="showcase" id="showcase">
+    <div class="main-text">
+        <h2>Showcase</h2>
+    </div>
+
+    <!-- Swiper container -->
+    <div class="swiper mySwiper" style="width: 100%">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="./img/gamehub_showcase_image1.png" alt="Image 1">
+                <div class="caption">Homepage of the GameHub</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/gamehub_showcase_image2.png" alt="Image 2">
+                <div class="caption">The Game Wordle in Dark Mode</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/gamehub_showcase_image3.png" alt="Image 3">
+                <div class="caption">Shows a Won Game of Wordle</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/gamehub_showcase_image4.png" alt="Image 4">
+                <div class="caption">Shows a Lost Game of Wordle and displays in Light Mode</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/gamehub_showcase_image5.png" alt="Image 5">
+                <div class="caption">Displays the Game Rock Paper Scissors</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/gamehub_showcase_image6.png" alt="Image 6">
+                <div class="caption">Displays a Tic Tac Toe Game</div>
+            </div>
+
+
+
+        </div>
+
+        <!-- Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+
+    </div>
+</section>
+
+<!---Links--->
+<section class="links" id="links">
+    <div class="main-text">
+        <h2>Links</h2>
+    </div>
+    <div class="links-text">
+        <a href="https://it3049c-spring24.github.io/gamehub-noahwardega/" class="btn" target="_blank">Go to GameHub</a>
+    </div>
+</section>
+<a href="index.html" id="btn2" target="_blank">Back to Home</a>
+
+</body>
+
+</html>
+
+<script>
+    const swiper = new Swiper('.mySwiper', {
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>

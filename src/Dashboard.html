@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project: PlanIt! RSVP App</title>
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:wght@300&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+<header>
+    <h2 class="logo">Portfolio</h2>
+    <ul class="navbar">
+        <li><a href="#overview">Project Overview</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="./index.html#portfolio">Back to Projects</a></li>
+    </ul>
+</header>
+
+<!---Project Overview--->
+<section class="overview" id="overview">
+    <div class="main-text">
+        <h2>IT Security Dashboard</h2>
+    </div>
+    <div class="overview-text">
+        <div class="box">
+            <h3>Overview</h3>
+            <p>
+                This IT ticketing dashboard empowers the IT staff of a company to efficiently handle and
+                resolve tickets while addressing vulnerabilities on the company network. Users can
+                seamlessly accomplish tasks by clicking on various dashboard tiles. These tiles
+                encompass detected vulnerabilities, IT tickets (service/problem/incident), and graphs/charts to represent the data.
+                The dashboard is useful for clients to proactively solve their users’ IT problems and mitigate security
+                risks on the network.
+            </p>
+        </div>
+        <div class="box">
+            <h3>Team/Roles</h3>
+            <p>
+                This project was a fully collaborative effort. Both team members contributed equally to all aspects of research, design, and testing.<br>
+                Noah Wardega: Co-Designer
+                <br>
+                Naail Sajjad: Co-Designer
+            </p>
+        </div>
+    </div>
+</section>
+
+<!---Solution--->
+<section class="solution" id="solution">
+    <div class="solution-img">
+        <img src="img/dashboard.png">
+    </div>
+    <div class="solution-text">
+        <div class="main-text">
+            <h2>Solution</h2>
+        </div>
+        <div class="box">
+            <h3>Technology Used</h3>
+            <p>
+                This project was completed using these tools:
+            </p>
+            <ul>
+                <li><strong>Canva</strong> – for Model Creation and Prototyping</li>
+                <li><strong>Microsoft Word and Excel</strong> – for Documentation, Research, and organizing Testing Data </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!---Showcase--->
+<section class="showcase" id="showcase">
+    <div class="main-text">
+        <h2>Showcase</h2>
+    </div>
+
+    <!-- Swiper container -->
+    <div class="swiper mySwiper" style="width: 100%">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="./img/dashboard_showcase_image1.png" alt="Image 1">
+                <div class="caption">Signing into the Dashboard Page</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/dashboard_showcase_image2.png" alt="Image 2">
+                <div class="caption">Home Page of the Dashboard, consisting of tiles that display the current alerts and data</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/dashboard_showcase_image3.png" alt="Image 3">
+                <div class="caption">Ticket Page that includes status and alert type of all the tickets</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/dashboard_showcase_image4.png" alt="Image 4">
+                <div class="caption">Selected Ticket Page, displays more information, communication, and resolving support</div>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./img/dashboard_showcase_image5.png" alt="Image 5">
+                <div class="caption">Dashboard Settings Page</div>
+            </div>
+
+
+
+        </div>
+
+        <!-- Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+
+    </div>
+</section>
+
+<!---Links--->
+<section class="links" id="links">
+    <div class="main-text">
+        <h2>Links</h2>
+    </div>
+    <div class="links-text">
+        <a href="https://www.canva.com/design/DAF_-sRnE5o/1ZzL7ZMfNcam3Nox2OHw-A/view?utm_content=DAF_-sRnE5o&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5daee0d2a2" class="btn" target="_blank">View Canva Prototype</a>
+        <a href="./TeamX_CombinedProject.pdf" class="btn" target="_blank">View Full Design Document</a>
+
+    </div>
+</section>
+<a href="index.html" id="btn2" target="_blank">Back to Home</a>
+
+</body>
+
+</html>
+
+<script>
+    const swiper = new Swiper('.mySwiper', {
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
